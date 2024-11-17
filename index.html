@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title> Simple-form </title>
+    </head>
+    <body>
+        <div>
+            <form class="form-container">
+                <h1> Registration Form </h1>
+                <div class="username">
+                    <input type="text" id="first-name" name="first_name" placeholder="First name" required>
+                </div>
+                <div class="username">
+                    <input type="text" id="last-name" name="last_name" placeholder="Last name" required>
+                </div>
+                <div class="email">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="mobile-number">
+                    <input type="tel" id="mobile-number" name="mobile_number" placeholder="Mobile number" minlength="10" maxlength="10" required>
+                </div>
+                <div class="age">
+                    <input type="number" id="age" name="age" placeholder="Age" min="1" required>
+                </div>
+                <div class="password">
+                    <input type="password" id="pwd" name="pwd" placeholder="Password" minlength="8" maxlength="22" required>
+                </div>
+                <div class="password">
+                    <input type="password" id="confirm-pwd" name="confirm_pwd" placeholder="Confirm password" minlength="8" maxlength="22" required>
+                </div>
+                <button> Submit </button>
+            </form>
+        </div>
+    </body>
+</html>
